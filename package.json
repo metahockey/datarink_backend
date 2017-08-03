@@ -1,0 +1,27 @@
+{
+  "name": "datarink-backend",
+  "version": "1.0.0",
+  "description": "Backend for datarink",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevkan/datarink-backend"
+  },
+  "author": "kevkan",
+  "license": "ISC",
+  "scripts": {
+    "dev": "NODE_ENV=development node server.js",
+    "lint": "./node_modules/.bin/eslint . --ext .js; exit 0;"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "knex": "^0.12.9",
+    "pg": "^6.1.5",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
